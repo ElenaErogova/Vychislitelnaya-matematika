@@ -1,5 +1,5 @@
-#ifndef VYCHMATY_MULTI_STEP_METHODS_HPP
-#define VYCHMATY_MULTI_STEP_METHODS_HPP
+#ifndef VYCHMATY_MULTI_STEP_HPP
+#define VYCHMATY_MULTI_STEP_HPP
 #include <array>
 #include <vector>
 #include "../Runge-Kutta methods/Runge-Kutta methods.hpp"
@@ -59,4 +59,4 @@ std::vector<typename RHS::StateAndArg> integrate(
     return RESULT;
 }
 
-#endif //VYCHMATY_MULTI_STEP_METHODS_HPP
+#endif //VYCHMATY_MULTI_STEP_HPP
